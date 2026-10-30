@@ -12,6 +12,7 @@ namespace CursoNelio
             SaidaDeDados.VerDados();
             ConversaoImplicitaExplicita.ImprimirCasting();
             OperadoresAritmeticos.VerOperadores();
+            EntradaDeDados.Executar();
         }
     }
 }
