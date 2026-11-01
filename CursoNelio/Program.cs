@@ -18,7 +18,9 @@ namespace CursoNelio
             // ExercicioSecao3.ExercicioTres();
             // ExercicioSecao3.ExercicioQuatro();
             // ExercicioSecao3.ExercicioCinco();
-            ExercicioSecao3.ExercicioSeis();
+            // ExercicioSecao3.ExercicioSeis();
+            // OperadoresComparativos.MostrarOpComparativos();
+            OperadoresLogicos.MostrarOperadoresLogicos();
         }
     }
 }
