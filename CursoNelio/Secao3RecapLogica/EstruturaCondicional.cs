@@ -37,6 +37,8 @@ public class EstruturaCondicional
         {
             Console.WriteLine("Sou uma string com dois caracteres");
         }
+        
+
 }
 
 }

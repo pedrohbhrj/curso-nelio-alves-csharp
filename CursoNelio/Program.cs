@@ -20,7 +20,12 @@ namespace CursoNelio
             // ExercicioSecao3.ExercicioCinco();
             // ExercicioSecao3.ExercicioSeis();
             // OperadoresComparativos.MostrarOpComparativos();
-            OperadoresLogicos.MostrarOperadoresLogicos();
+            // OperadoresLogicos.MostrarOperadoresLogicos();
+            // ExercicioSecao3.ExercicioCondicionalTres();
+            // ExercicioSecao3.ExercicioCondicionalQuatro();
+            // ExercicioSecao3.ExercicioCondicionalCinco();
+            // ExercicioSecao3.ExercicioCondicionalSeis();
+            // ExercicioSecao3.ExercicioCondicionalSete();
         }
     }
 }
