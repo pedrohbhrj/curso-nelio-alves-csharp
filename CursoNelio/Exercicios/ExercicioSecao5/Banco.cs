@@ -39,7 +39,7 @@ public class Banco
         if (valor > 0)
         {
             _saldo += valor;
-            Console.WriteLine($"Dados da conta atualizados: \n");
+            Console.WriteLine($"Dados da conta atualizados:");
             Console.WriteLine(ToString());
         }
         else
@@ -66,7 +66,7 @@ public class Banco
             {
                 _saldo -= valor;
                 _saldo -= 5;
-                Console.WriteLine($"Dados da conta atualizados: \n");
+                Console.WriteLine($"Dados da conta atualizados:");
                 Console.WriteLine(ToString());
             }
             else

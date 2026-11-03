@@ -2,6 +2,7 @@
 using CursoNelio.Secao3RecapLogica;
 using CursoNelio.Exercicios;
 using CursoNelio.Exercicios.ExercicioSecao5;
+using CursoNelio.Exercicios.ExercicioSecao6;
 
 namespace CursoNelio
 {
@@ -35,7 +36,8 @@ namespace CursoNelio
             // Secao 4
             // Pessoa.ExercicioDoisOrientacaoObjetos();
             // Pessoa.ExercicioUmOrientacaoObjetos();
-            ExercicioSecao5.ExecutarExercicio();
+            // ExercicioSecao5.ExecutarExercicio();
+            ExercicioVetor.ExecutarExercicio();
             
         }
     }
