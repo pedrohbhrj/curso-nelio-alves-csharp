@@ -1,5 +1,8 @@
-﻿using CursoNelio.Secao3RecapLogica;
+﻿using System.Globalization;
+using CursoNelio.Secao3RecapLogica;
 using CursoNelio.Exercicios;
+using CursoNelio.Exercicios.ExercicioSecao5;
+
 namespace CursoNelio
 {
     class Program
@@ -26,6 +29,13 @@ namespace CursoNelio
             // ExercicioSecao3.ExercicioCondicionalCinco();
             // ExercicioSecao3.ExercicioCondicionalSeis();
             // ExercicioSecao3.ExercicioCondicionalSete();
+            // ExercicioSecao3.ExercicioWhileUm();
+            // ExercicioSecao3.ExercicioForUm();
+
+            // Secao 4
+            // Pessoa.ExercicioDoisOrientacaoObjetos();
+            // Pessoa.ExercicioUmOrientacaoObjetos();
+            Banco.ExecutarExercicio();
         }
     }
 }
