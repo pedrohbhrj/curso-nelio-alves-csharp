@@ -36,9 +36,17 @@ namespace CursoNelio
             // Secao 4
             // Pessoa.ExercicioDoisOrientacaoObjetos();
             // Pessoa.ExercicioUmOrientacaoObjetos();
-            // ExercicioSecao5.ExecutarExercicio();
-            ExercicioVetor.ExecutarExercicio();
             
+            
+            // ExercicioSecao5.ExecutarExercicio();
+            // ExercicioVetor.ExecutarExercicio();
+
+            // ExercicioVetor.ExecutarExercicio();
+            
+            ExercicioVetor.ExecutarExercicioMatriz();
+
         }
+
+        
     }
 }

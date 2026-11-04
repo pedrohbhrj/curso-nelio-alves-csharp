@@ -38,7 +38,71 @@ public class ExercicioVetor
             }
         }
         
+    }
+
+    public static void ExecutarExercicioMatriz()
+    {
+        string[] tamanhoMatriz = Console.ReadLine().Split(" ");
         
+        int linha = int.Parse(tamanhoMatriz[0]);
+        int coluna = int.Parse(tamanhoMatriz[1]);
+        
+        int[,] matriz = new int[linha,coluna];
+        string[] entrada;
+        
+        for (int i = 0; i < linha; i++)
+        {
+            entrada = Console.ReadLine().Split(" ");
+            
+            for (int j = 0; j < coluna; j++)
+            {
+                matriz[i, j] = int.Parse(entrada[j]);
+            }
+        }
+        
+        int valorAhEncontrar = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < linha; i++)
+        {
+            for (int j = 0; j < coluna; j++)
+            {
+                
+                if (matriz[i, j] == valorAhEncontrar)
+                {
+                    
+                    Console.WriteLine($"Position {i},{j}:");
+                    
+                    if (j - 1 < 0)
+                    {
+                        continue;
+                    }
+                       
+                    int left = matriz[i, j - 1];
+                    Console.WriteLine($"Left: {left}");
+                    
+                    if (j + 1 < coluna)
+                    {
+                        int right = matriz[i, j + 1];
+                        Console.WriteLine($"Right: {right}");
+                    }
+                    
+                    if (i + 1 < linha)
+                    {
+                        int down = matriz[i + 1, j];
+                        Console.WriteLine($"Down: {down}");
+                    }
+                    
+                    
+                    if (i - 1 >= 0)
+                    {
+                        int up = matriz[i - 1, j];
+                        Console.WriteLine($"Up: {up}");
+                    }
+                    
+                    
+                }
+            }
+        }
         
     }
 }
