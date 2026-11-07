@@ -3,6 +3,7 @@ using CursoNelio.Secao3RecapLogica;
 using CursoNelio.Exercicios;
 using CursoNelio.Exercicios.ExercicioSecao5;
 using CursoNelio.Exercicios.ExercicioSecao6;
+using CursoNelio.Secao7TopicosEspeciais;
 
 namespace CursoNelio
 {
@@ -43,7 +44,10 @@ namespace CursoNelio
 
             // ExercicioVetor.ExecutarExercicio();
             
-            ExercicioVetor.ExecutarExercicioMatriz();
+            // ExercicioVetor.ExecutarExercicioMatriz();
+            
+            // DateTimePratica.Executar();
+            // TimeSpanPratica.Executar();
 
         }
 
