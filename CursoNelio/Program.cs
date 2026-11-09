@@ -1,9 +1,5 @@
-﻿using System.Globalization;
-using CursoNelio.Secao3RecapLogica;
-using CursoNelio.Exercicios;
-using CursoNelio.Exercicios.ExercicioSecao5;
-using CursoNelio.Exercicios.ExercicioSecao6;
-using CursoNelio.Secao7TopicosEspeciais;
+﻿
+using CursoNelio.Secao8EnumComposicao;
 
 namespace CursoNelio
 {
@@ -48,6 +44,9 @@ namespace CursoNelio
             
             // DateTimePratica.Executar();
             // TimeSpanPratica.Executar();
+            
+            // TiposEnumerados.MostrarDiasDaSemana();
+            ExercicioProposto.Executar();
 
         }
 
